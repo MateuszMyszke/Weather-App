@@ -8,9 +8,7 @@ const ErrorBox = ({ children }) => {
         <span className="fa fa-exclamation-triangle" />
         Error
       </h1>
-      <p>
-        {children}
-      </p>
+      <p>There is no such city!</p>
     </div>
   );
 };
